@@ -3,6 +3,8 @@ Tools for the R developer
 
 [![R build status](https://github.com/martinctc/devtoolbox/workflows/R-CMD-check/badge.svg)](https://github.com/martinctc/devtoolbox/actions/)
 [![CodeFactor](https://www.codefactor.io/repository/github/martinctc/devtoolbox/badge)](https://www.codefactor.io/repository/github/martinctc/devtoolbox/)
+[![CRAN status](https://www.r-pkg.org/badges/version/devtoolbox)](https://CRAN.R-project.org/package=devtoolbox/)
+[![CRAN last month downloads](https://cranlogs.r-pkg.org/badges/last-month/devtoolbox?color=green/)](https://cran.r-project.org/package=devtoolbox/)
 
 ## About
 
@@ -26,11 +28,14 @@ See the following example reports:
 
 ### Installation
 
-{devtoolbox} is not released on CRAN (yet). 
-You can install the latest development version from GitHub with:
+{devtoolbox} is now available on CRAN. You can install this with: 
+```R
+install.packages("devtoolbox")
+```
+
+You can also install the latest development version from GitHub with:
 
 ```R
-install.packages("devtools")
 devtools::install_github("martinctc/devtoolbox")
 ```
 
